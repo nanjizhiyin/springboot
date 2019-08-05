@@ -16,6 +16,9 @@ public class logback {
         logger.debug("print debug log.");
         logger.info("print info log.");
         logger.error("print error log.");
+        Double d = 34.3;
 
+        String s = new String("1") + new String("2");
+        System.out.println(s.intern() == s);
     }
 }
